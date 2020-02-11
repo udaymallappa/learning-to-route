@@ -3,8 +3,7 @@ import warnings
 from .utils import knn, read_edges, read_fvecs, read_info, read_ivecs
 import numpy as np
 import torch
-
-
+##
 class Graph:
     def __init__(self, vertices_path, edges_path,
                  train_queries_path, test_queries_path,
